@@ -30,6 +30,7 @@
 		9054990A292439E4003973A8 /* SpotifyNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90549909292439E4003973A8 /* SpotifyNotifications.swift */; };
 		9054990D29243AA0003973A8 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 9054990C29243AA0003973A8 /* FirebaseMessaging */; };
 		9054990F2924731C003973A8 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9054990E2924731C003973A8 /* Date.swift */; };
+		905499112925BC7F003973A8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 905499102925BC7F003973A8 /* README.md */; };
 		907C7EE12920B03B00551E50 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 907C7EE02920B03B00551E50 /* FirebaseAnalytics */; };
 		907C7EE32920B03B00551E50 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 907C7EE22920B03B00551E50 /* FirebaseAuth */; };
 		907C7EE52920B03B00551E50 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 907C7EE42920B03B00551E50 /* FirebaseFirestore */; };
@@ -87,6 +88,7 @@
 		9054990729231ED8003973A8 /* DividerModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerModifier.swift; sourceTree = "<group>"; };
 		90549909292439E4003973A8 /* SpotifyNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyNotifications.swift; sourceTree = "<group>"; };
 		9054990E2924731C003973A8 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		905499102925BC7F003973A8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9082E689291995CF007ED0BE /* Power Hour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Power Hour.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9082E68C291995CF007ED0BE /* Power_HourApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Power_HourApp.swift; sourceTree = "<group>"; };
 		9082E68E291995CF007ED0BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -236,6 +238,7 @@
 				9082E692291995D0007ED0BE /* Power_Hour.entitlements */,
 				904EE4502919D40D00E5A64B /* Power-Hour-Info.plist */,
 				90C5914E2919AF4F00D6E5FC /* GoogleService-Info.plist */,
+				905499102925BC7F003973A8 /* README.md */,
 				9082E693291995D0007ED0BE /* Preview Content */,
 			);
 			path = "Power Hour";
@@ -334,6 +337,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				905499112925BC7F003973A8 /* README.md in Resources */,
 				9082E695291995D0007ED0BE /* Preview Assets.xcassets in Resources */,
 				90C5914F2919AF4F00D6E5FC /* GoogleService-Info.plist in Resources */,
 				90A3DDBC291C5FAC00359A84 /* BradaSans-Bold.otf in Resources */,
