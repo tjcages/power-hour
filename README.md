@@ -1,6 +1,6 @@
 # POWER HOUR 🍻
 
-![demo image]([image.jpg](https://github.com/tjcages/power-hour/blob/main/Power%20Hour/Assets.xcassets/Image.imageset/demo.png?raw=1))
+![demo image](https://raw.githubusercontent.com/tjcages/power-hour/main/Power%20Hour/Assets.xcassets/Image.imageset/demo.png)
 
 Turn each of the songs in your playlists into a 60s sample to blast through a power hour with friends.
 
