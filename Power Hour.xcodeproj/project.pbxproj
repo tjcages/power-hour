@@ -7,19 +7,113 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90273A13291C659B001775F1 /* Sizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90273A12291C659B001775F1 /* Sizing.swift */; };
+		90273A16291C69AC001775F1 /* DimEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90273A15291C69AC001775F1 /* DimEdges.swift */; };
+		90273A18291C6B30001775F1 /* ProfileSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90273A17291C6B30001775F1 /* ProfileSheet.swift */; };
+		90273A1A291C6B64001775F1 /* Handle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90273A19291C6B64001775F1 /* Handle.swift */; };
+		90273A1D291C6E1C001775F1 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90273A1C291C6E1C001775F1 /* Colors.swift */; };
+		90273A1F291C71FE001775F1 /* BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90273A1E291C71FE001775F1 /* BackgroundColor.swift */; };
+		90273A21291C7540001775F1 /* BlurImageBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90273A20291C7540001775F1 /* BlurImageBackground.swift */; };
+		90273A25291C7B07001775F1 /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90273A24291C7B07001775F1 /* PlayButton.swift */; };
+		90273A27291C7EF9001775F1 /* ControlButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90273A26291C7EF9001775F1 /* ControlButton.swift */; };
+		904EE4492919B69B00E5A64B /* SpotifyAPIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904EE4482919B69B00E5A64B /* SpotifyAPIs.swift */; };
+		904EE44D2919B6D000E5A64B /* PlaylistData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904EE44C2919B6D000E5A64B /* PlaylistData.swift */; };
+		904EE44F2919C7A500E5A64B /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904EE44E2919C7A500E5A64B /* UserData.swift */; };
+		905498F72922D5B4003973A8 /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905498F62922D5B4003973A8 /* BottomSheet.swift */; };
+		905498F92922DB16003973A8 /* BackgroundSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905498F82922DB16003973A8 /* BackgroundSheetView.swift */; };
+		905498FE2922F035003973A8 /* CurrentlyPlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905498FD2922F035003973A8 /* CurrentlyPlayingView.swift */; };
+		9054990029231016003973A8 /* CurrentArtwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905498FF29231016003973A8 /* CurrentArtwork.swift */; };
+		90549902292316EB003973A8 /* TrackControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90549901292316EB003973A8 /* TrackControls.swift */; };
+		9054990429231752003973A8 /* SongList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9054990329231752003973A8 /* SongList.swift */; };
+		9054990629231905003973A8 /* Waveform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9054990529231905003973A8 /* Waveform.swift */; };
+		9054990829231ED8003973A8 /* DividerModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9054990729231ED8003973A8 /* DividerModifier.swift */; };
+		9054990A292439E4003973A8 /* SpotifyNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90549909292439E4003973A8 /* SpotifyNotifications.swift */; };
+		9054990D29243AA0003973A8 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 9054990C29243AA0003973A8 /* FirebaseMessaging */; };
+		9054990F2924731C003973A8 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9054990E2924731C003973A8 /* Date.swift */; };
+		907C7EE12920B03B00551E50 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 907C7EE02920B03B00551E50 /* FirebaseAnalytics */; };
+		907C7EE32920B03B00551E50 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 907C7EE22920B03B00551E50 /* FirebaseAuth */; };
+		907C7EE52920B03B00551E50 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 907C7EE42920B03B00551E50 /* FirebaseFirestore */; };
+		907C7EE72920B03B00551E50 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 907C7EE62920B03B00551E50 /* FirebaseFunctions */; };
+		907C7EEA2920B05A00551E50 /* BetterSafariView in Frameworks */ = {isa = PBXBuildFile; productRef = 907C7EE92920B05A00551E50 /* BetterSafariView */; };
 		9082E68D291995CF007ED0BE /* Power_HourApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9082E68C291995CF007ED0BE /* Power_HourApp.swift */; };
 		9082E68F291995CF007ED0BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9082E68E291995CF007ED0BE /* ContentView.swift */; };
 		9082E691291995D0007ED0BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9082E690291995D0007ED0BE /* Assets.xcassets */; };
 		9082E695291995D0007ED0BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9082E694291995D0007ED0BE /* Preview Assets.xcassets */; };
+		9082E69C2919A44D007ED0BE /* PlayingSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9082E69B2919A44D007ED0BE /* PlayingSheet.swift */; };
+		9082E69E2919A45D007ED0BE /* PlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9082E69D2919A45D007ED0BE /* PlaylistView.swift */; };
+		9089C1792920B4A600EAEDF6 /* SpotifyiOS in Frameworks */ = {isa = PBXBuildFile; productRef = 9089C1782920B4A600EAEDF6 /* SpotifyiOS */; };
+		9089C17B2920B50700EAEDF6 /* SpotifyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9089C17A2920B50700EAEDF6 /* SpotifyController.swift */; };
+		90A3DDBB291C5FAC00359A84 /* BradaSans-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 90A3DDB9291C5F9900359A84 /* BradaSans-Light.otf */; };
+		90A3DDBC291C5FAC00359A84 /* BradaSans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 90A3DDBA291C5F9900359A84 /* BradaSans-Bold.otf */; };
+		90A3DDBE291C616C00359A84 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A3DDBD291C616C00359A84 /* Fonts.swift */; };
+		90B5A64A291E070600D57B1D /* SongData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B5A649291E070600D57B1D /* SongData.swift */; };
+		90B5A64C291E16A100D57B1D /* IfModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B5A64B291E16A100D57B1D /* IfModifier.swift */; };
+		90B5A64E291EE41A00D57B1D /* BaseEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B5A64D291EE41A00D57B1D /* BaseEncoding.swift */; };
+		90B5A650291F003D00D57B1D /* PullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B5A64F291F003D00D57B1D /* PullToRefresh.swift */; };
+		90C5914B2919A56800D6E5FC /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C5914A2919A56800D6E5FC /* Padding.swift */; };
+		90C5914D2919A60200D6E5FC /* SongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C5914C2919A60200D6E5FC /* SongView.swift */; };
+		90C5914F2919AF4F00D6E5FC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90C5914E2919AF4F00D6E5FC /* GoogleService-Info.plist */; };
+		90FC9053291F051C0042AC0B /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FC9052291F051C0042AC0B /* ToastView.swift */; };
+		90FC9055291F053A0042AC0B /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FC9054291F053A0042AC0B /* HomePage.swift */; };
+		90FC9057291F0ACF0042AC0B /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FC9056291F0ACF0042AC0B /* Delay.swift */; };
+		90FC9059291F0CE30042AC0B /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FC9058291F0CE30042AC0B /* LoginPage.swift */; };
+		90FC905B291F0E0C0042AC0B /* GyroscopeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FC905A291F0E0C0042AC0B /* GyroscopeView.swift */; };
+		90FC905D291F118B0042AC0B /* GryroPlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FC905C291F118B0042AC0B /* GryroPlaylistView.swift */; };
+		90FC905F291F15CE0042AC0B /* SpotifyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FC905E291F15CE0042AC0B /* SpotifyButton.swift */; };
+		90FC906629204C940042AC0B /* Noise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FC906529204C940042AC0B /* Noise.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		90273A12291C659B001775F1 /* Sizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sizing.swift; sourceTree = "<group>"; };
+		90273A15291C69AC001775F1 /* DimEdges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimEdges.swift; sourceTree = "<group>"; };
+		90273A17291C6B30001775F1 /* ProfileSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSheet.swift; sourceTree = "<group>"; };
+		90273A19291C6B64001775F1 /* Handle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handle.swift; sourceTree = "<group>"; };
+		90273A1C291C6E1C001775F1 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		90273A1E291C71FE001775F1 /* BackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundColor.swift; sourceTree = "<group>"; };
+		90273A20291C7540001775F1 /* BlurImageBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurImageBackground.swift; sourceTree = "<group>"; };
+		90273A24291C7B07001775F1 /* PlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
+		90273A26291C7EF9001775F1 /* ControlButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlButton.swift; sourceTree = "<group>"; };
+		904EE4482919B69B00E5A64B /* SpotifyAPIs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyAPIs.swift; sourceTree = "<group>"; };
+		904EE44C2919B6D000E5A64B /* PlaylistData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistData.swift; sourceTree = "<group>"; };
+		904EE44E2919C7A500E5A64B /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		904EE4502919D40D00E5A64B /* Power-Hour-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Power-Hour-Info.plist"; sourceTree = SOURCE_ROOT; };
+		905498F62922D5B4003973A8 /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
+		905498F82922DB16003973A8 /* BackgroundSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundSheetView.swift; sourceTree = "<group>"; };
+		905498FD2922F035003973A8 /* CurrentlyPlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentlyPlayingView.swift; sourceTree = "<group>"; };
+		905498FF29231016003973A8 /* CurrentArtwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentArtwork.swift; sourceTree = "<group>"; };
+		90549901292316EB003973A8 /* TrackControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackControls.swift; sourceTree = "<group>"; };
+		9054990329231752003973A8 /* SongList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongList.swift; sourceTree = "<group>"; };
+		9054990529231905003973A8 /* Waveform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waveform.swift; sourceTree = "<group>"; };
+		9054990729231ED8003973A8 /* DividerModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerModifier.swift; sourceTree = "<group>"; };
+		90549909292439E4003973A8 /* SpotifyNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyNotifications.swift; sourceTree = "<group>"; };
+		9054990E2924731C003973A8 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		9082E689291995CF007ED0BE /* Power Hour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Power Hour.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9082E68C291995CF007ED0BE /* Power_HourApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Power_HourApp.swift; sourceTree = "<group>"; };
 		9082E68E291995CF007ED0BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9082E690291995D0007ED0BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9082E692291995D0007ED0BE /* Power_Hour.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Power_Hour.entitlements; sourceTree = "<group>"; };
 		9082E694291995D0007ED0BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9082E69B2919A44D007ED0BE /* PlayingSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingSheet.swift; sourceTree = "<group>"; };
+		9082E69D2919A45D007ED0BE /* PlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistView.swift; sourceTree = "<group>"; };
+		9089C17A2920B50700EAEDF6 /* SpotifyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyController.swift; sourceTree = "<group>"; };
+		90A3DDB9291C5F9900359A84 /* BradaSans-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BradaSans-Light.otf"; sourceTree = "<group>"; };
+		90A3DDBA291C5F9900359A84 /* BradaSans-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BradaSans-Bold.otf"; sourceTree = "<group>"; };
+		90A3DDBD291C616C00359A84 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		90B5A649291E070600D57B1D /* SongData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongData.swift; sourceTree = "<group>"; };
+		90B5A64B291E16A100D57B1D /* IfModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfModifier.swift; sourceTree = "<group>"; };
+		90B5A64D291EE41A00D57B1D /* BaseEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseEncoding.swift; sourceTree = "<group>"; };
+		90B5A64F291F003D00D57B1D /* PullToRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToRefresh.swift; sourceTree = "<group>"; };
+		90C5914A2919A56800D6E5FC /* Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding.swift; sourceTree = "<group>"; };
+		90C5914C2919A60200D6E5FC /* SongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongView.swift; sourceTree = "<group>"; };
+		90C5914E2919AF4F00D6E5FC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		90FC9052291F051C0042AC0B /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		90FC9054291F053A0042AC0B /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		90FC9056291F0ACF0042AC0B /* Delay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
+		90FC9058291F0CE30042AC0B /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		90FC905A291F0E0C0042AC0B /* GyroscopeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroscopeView.swift; sourceTree = "<group>"; };
+		90FC905C291F118B0042AC0B /* GryroPlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GryroPlaylistView.swift; sourceTree = "<group>"; };
+		90FC905E291F15CE0042AC0B /* SpotifyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyButton.swift; sourceTree = "<group>"; };
+		90FC906529204C940042AC0B /* Noise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Noise.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +121,92 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				907C7EE12920B03B00551E50 /* FirebaseAnalytics in Frameworks */,
+				9089C1792920B4A600EAEDF6 /* SpotifyiOS in Frameworks */,
+				9054990D29243AA0003973A8 /* FirebaseMessaging in Frameworks */,
+				907C7EE32920B03B00551E50 /* FirebaseAuth in Frameworks */,
+				907C7EE52920B03B00551E50 /* FirebaseFirestore in Frameworks */,
+				907C7EE72920B03B00551E50 /* FirebaseFunctions in Frameworks */,
+				907C7EEA2920B05A00551E50 /* BetterSafariView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90273A14291C699B001775F1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				90273A15291C69AC001775F1 /* DimEdges.swift */,
+				90273A1E291C71FE001775F1 /* BackgroundColor.swift */,
+				90273A20291C7540001775F1 /* BlurImageBackground.swift */,
+				90B5A64B291E16A100D57B1D /* IfModifier.swift */,
+				90B5A64D291EE41A00D57B1D /* BaseEncoding.swift */,
+				90B5A64F291F003D00D57B1D /* PullToRefresh.swift */,
+				90FC906529204C940042AC0B /* Noise.swift */,
+				90FC9056291F0ACF0042AC0B /* Delay.swift */,
+				905498F62922D5B4003973A8 /* BottomSheet.swift */,
+				905498F82922DB16003973A8 /* BackgroundSheetView.swift */,
+				9054990529231905003973A8 /* Waveform.swift */,
+				9054990729231ED8003973A8 /* DividerModifier.swift */,
+				9054990E2924731C003973A8 /* Date.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		90273A1B291C6D9F001775F1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				90FC905C291F118B0042AC0B /* GryroPlaylistView.swift */,
+				9082E69D2919A45D007ED0BE /* PlaylistView.swift */,
+				90C5914C2919A60200D6E5FC /* SongView.swift */,
+				90273A19291C6B64001775F1 /* Handle.swift */,
+				90273A24291C7B07001775F1 /* PlayButton.swift */,
+				90FC905E291F15CE0042AC0B /* SpotifyButton.swift */,
+				90273A26291C7EF9001775F1 /* ControlButton.swift */,
+				90FC9052291F051C0042AC0B /* ToastView.swift */,
+				90FC905A291F0E0C0042AC0B /* GyroscopeView.swift */,
+				905498FD2922F035003973A8 /* CurrentlyPlayingView.swift */,
+				905498FF29231016003973A8 /* CurrentArtwork.swift */,
+				90549901292316EB003973A8 /* TrackControls.swift */,
+				9054990329231752003973A8 /* SongList.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		904EE44A2919B6BC00E5A64B /* API */ = {
+			isa = PBXGroup;
+			children = (
+				904EE4482919B69B00E5A64B /* SpotifyAPIs.swift */,
+				9089C17A2920B50700EAEDF6 /* SpotifyController.swift */,
+				90549909292439E4003973A8 /* SpotifyNotifications.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		904EE44B2919B6C600E5A64B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				904EE44C2919B6D000E5A64B /* PlaylistData.swift */,
+				904EE44E2919C7A500E5A64B /* UserData.swift */,
+				90B5A649291E070600D57B1D /* SongData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9054990B29243AA0003973A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9082E680291995CF007ED0BE = {
 			isa = PBXGroup;
 			children = (
 				9082E68B291995CF007ED0BE /* Power Hour */,
 				9082E68A291995CF007ED0BE /* Products */,
+				9054990B29243AA0003973A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,9 +222,20 @@
 			isa = PBXGroup;
 			children = (
 				9082E68C291995CF007ED0BE /* Power_HourApp.swift */,
+				904EE44A2919B6BC00E5A64B /* API */,
+				904EE44B2919B6C600E5A64B /* Model */,
 				9082E68E291995CF007ED0BE /* ContentView.swift */,
+				90FC9054291F053A0042AC0B /* HomePage.swift */,
+				90FC9058291F0CE30042AC0B /* LoginPage.swift */,
+				9082E69B2919A44D007ED0BE /* PlayingSheet.swift */,
+				90273A17291C6B30001775F1 /* ProfileSheet.swift */,
+				90273A1B291C6D9F001775F1 /* Shared */,
+				90A3DDB8291C5F7900359A84 /* Brand */,
+				90273A14291C699B001775F1 /* Extensions */,
 				9082E690291995D0007ED0BE /* Assets.xcassets */,
 				9082E692291995D0007ED0BE /* Power_Hour.entitlements */,
+				904EE4502919D40D00E5A64B /* Power-Hour-Info.plist */,
+				90C5914E2919AF4F00D6E5FC /* GoogleService-Info.plist */,
 				9082E693291995D0007ED0BE /* Preview Content */,
 			);
 			path = "Power Hour";
@@ -67,6 +247,19 @@
 				9082E694291995D0007ED0BE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		90A3DDB8291C5F7900359A84 /* Brand */ = {
+			isa = PBXGroup;
+			children = (
+				90A3DDBA291C5F9900359A84 /* BradaSans-Bold.otf */,
+				90A3DDB9291C5F9900359A84 /* BradaSans-Light.otf */,
+				90A3DDBD291C616C00359A84 /* Fonts.swift */,
+				90C5914A2919A56800D6E5FC /* Padding.swift */,
+				90273A12291C659B001775F1 /* Sizing.swift */,
+				90273A1C291C6E1C001775F1 /* Colors.swift */,
+			);
+			path = Brand;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +278,15 @@
 			dependencies = (
 			);
 			name = "Power Hour";
+			packageProductDependencies = (
+				907C7EE02920B03B00551E50 /* FirebaseAnalytics */,
+				907C7EE22920B03B00551E50 /* FirebaseAuth */,
+				907C7EE42920B03B00551E50 /* FirebaseFirestore */,
+				907C7EE62920B03B00551E50 /* FirebaseFunctions */,
+				907C7EE92920B05A00551E50 /* BetterSafariView */,
+				9089C1782920B4A600EAEDF6 /* SpotifyiOS */,
+				9054990C29243AA0003973A8 /* FirebaseMessaging */,
+			);
 			productName = "Power Hour";
 			productReference = 9082E689291995CF007ED0BE /* Power Hour.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +315,11 @@
 				Base,
 			);
 			mainGroup = 9082E680291995CF007ED0BE;
+			packageReferences = (
+				907C7EDF2920B03B00551E50 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				907C7EE82920B05A00551E50 /* XCRemoteSwiftPackageReference "BetterSafariView" */,
+				9089C1772920B4A600EAEDF6 /* XCRemoteSwiftPackageReference "ios-sdk" */,
+			);
 			productRefGroup = 9082E68A291995CF007ED0BE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,6 +335,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9082E695291995D0007ED0BE /* Preview Assets.xcassets in Resources */,
+				90C5914F2919AF4F00D6E5FC /* GoogleService-Info.plist in Resources */,
+				90A3DDBC291C5FAC00359A84 /* BradaSans-Bold.otf in Resources */,
+				90A3DDBB291C5FAC00359A84 /* BradaSans-Light.otf in Resources */,
 				9082E691291995D0007ED0BE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +349,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90FC906629204C940042AC0B /* Noise.swift in Sources */,
+				9082E69C2919A44D007ED0BE /* PlayingSheet.swift in Sources */,
+				90FC9053291F051C0042AC0B /* ToastView.swift in Sources */,
+				90FC905F291F15CE0042AC0B /* SpotifyButton.swift in Sources */,
+				9089C17B2920B50700EAEDF6 /* SpotifyController.swift in Sources */,
+				90273A1A291C6B64001775F1 /* Handle.swift in Sources */,
 				9082E68F291995CF007ED0BE /* ContentView.swift in Sources */,
+				90FC905B291F0E0C0042AC0B /* GyroscopeView.swift in Sources */,
+				9054990A292439E4003973A8 /* SpotifyNotifications.swift in Sources */,
+				90273A21291C7540001775F1 /* BlurImageBackground.swift in Sources */,
+				90FC905D291F118B0042AC0B /* GryroPlaylistView.swift in Sources */,
+				90273A1F291C71FE001775F1 /* BackgroundColor.swift in Sources */,
+				90B5A650291F003D00D57B1D /* PullToRefresh.swift in Sources */,
+				90B5A64E291EE41A00D57B1D /* BaseEncoding.swift in Sources */,
+				905498F72922D5B4003973A8 /* BottomSheet.swift in Sources */,
+				90273A16291C69AC001775F1 /* DimEdges.swift in Sources */,
+				90273A27291C7EF9001775F1 /* ControlButton.swift in Sources */,
+				90FC9055291F053A0042AC0B /* HomePage.swift in Sources */,
+				90C5914D2919A60200D6E5FC /* SongView.swift in Sources */,
+				9082E69E2919A45D007ED0BE /* PlaylistView.swift in Sources */,
+				905498FE2922F035003973A8 /* CurrentlyPlayingView.swift in Sources */,
 				9082E68D291995CF007ED0BE /* Power_HourApp.swift in Sources */,
+				90C5914B2919A56800D6E5FC /* Padding.swift in Sources */,
+				90273A25291C7B07001775F1 /* PlayButton.swift in Sources */,
+				905498F92922DB16003973A8 /* BackgroundSheetView.swift in Sources */,
+				9054990429231752003973A8 /* SongList.swift in Sources */,
+				90273A1D291C6E1C001775F1 /* Colors.swift in Sources */,
+				904EE44D2919B6D000E5A64B /* PlaylistData.swift in Sources */,
+				90A3DDBE291C616C00359A84 /* Fonts.swift in Sources */,
+				90FC9059291F0CE30042AC0B /* LoginPage.swift in Sources */,
+				9054990029231016003973A8 /* CurrentArtwork.swift in Sources */,
+				90B5A64C291E16A100D57B1D /* IfModifier.swift in Sources */,
+				904EE44F2919C7A500E5A64B /* UserData.swift in Sources */,
+				904EE4492919B69B00E5A64B /* SpotifyAPIs.swift in Sources */,
+				90273A13291C659B001775F1 /* Sizing.swift in Sources */,
+				90549902292316EB003973A8 /* TrackControls.swift in Sources */,
+				9054990629231905003973A8 /* Waveform.swift in Sources */,
+				9054990F2924731C003973A8 /* Date.swift in Sources */,
+				90B5A64A291E070600D57B1D /* SongData.swift in Sources */,
+				90273A18291C6B30001775F1 /* ProfileSheet.swift in Sources */,
+				9054990829231ED8003973A8 /* DividerModifier.swift in Sources */,
+				90FC9057291F0ACF0042AC0B /* Delay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,9 +516,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Power Hour/Preview Content\"";
 				DEVELOPMENT_TEAM = HE452HL4WS;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Power-Hour-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -279,7 +534,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.6;
@@ -304,9 +559,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Power Hour/Preview Content\"";
 				DEVELOPMENT_TEAM = HE452HL4WS;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Power-Hour-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -317,7 +577,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.6;
@@ -354,6 +614,71 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		907C7EDF2920B03B00551E50 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		907C7EE82920B05A00551E50 /* XCRemoteSwiftPackageReference "BetterSafariView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stleamist/BetterSafariView.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		9089C1772920B4A600EAEDF6 /* XCRemoteSwiftPackageReference "ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/niehusst/ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9054990C29243AA0003973A8 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 907C7EDF2920B03B00551E50 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		907C7EE02920B03B00551E50 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 907C7EDF2920B03B00551E50 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		907C7EE22920B03B00551E50 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 907C7EDF2920B03B00551E50 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		907C7EE42920B03B00551E50 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 907C7EDF2920B03B00551E50 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		907C7EE62920B03B00551E50 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 907C7EDF2920B03B00551E50 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		907C7EE92920B05A00551E50 /* BetterSafariView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 907C7EE82920B05A00551E50 /* XCRemoteSwiftPackageReference "BetterSafariView" */;
+			productName = BetterSafariView;
+		};
+		9089C1782920B4A600EAEDF6 /* SpotifyiOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9089C1772920B4A600EAEDF6 /* XCRemoteSwiftPackageReference "ios-sdk" */;
+			productName = SpotifyiOS;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9082E681291995CF007ED0BE /* Project object */;
 }

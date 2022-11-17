@@ -8,19 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var spotify: SpotifyController
+    @AppStorage(KeyValue.authenticated.rawValue) private var authenticated: Bool = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack(alignment: .bottom) {
+            if authenticated {
+                HomePage()
+            } else {
+                LoginPage()
+            }
+            
+            ToastView()
         }
-        .padding()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+        .preferredColorScheme(.dark)
     }
 }
