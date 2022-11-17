@@ -209,6 +209,7 @@
 				9082E68B291995CF007ED0BE /* Power Hour */,
 				9082E68A291995CF007ED0BE /* Products */,
 				9054990B29243AA0003973A8 /* Frameworks */,
+				905499102925BC7F003973A8 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -238,7 +239,6 @@
 				9082E692291995D0007ED0BE /* Power_Hour.entitlements */,
 				904EE4502919D40D00E5A64B /* Power-Hour-Info.plist */,
 				90C5914E2919AF4F00D6E5FC /* GoogleService-Info.plist */,
-				905499102925BC7F003973A8 /* README.md */,
 				9082E693291995D0007ED0BE /* Preview Content */,
 			);
 			path = "Power Hour";
